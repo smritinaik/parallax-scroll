@@ -9,7 +9,7 @@ const Parallax = () => {
         offset: ["start start", "end start"],
     });
 
-const backgroundY = useTransform(scrollYProgress , [0, 1] ,["0%", "100%"]);
+// const backgroundY = useTransform(scrollYProgress , [0, 1] ,["0%", "100%"]);
 const textY = useTransform(scrollYProgress , [0, 1] ,["0%", "200%"]);
 
   return (
@@ -40,9 +40,6 @@ const textY = useTransform(scrollYProgress , [0, 1] ,["0%", "200%"]);
         backgroundSize : "cover"
     }}
     />
-
-
-
   </div>
   )
 }
