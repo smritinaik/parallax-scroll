@@ -27,7 +27,7 @@ const textY = useTransform(scrollYProgress , [0, 1] ,["0%", "200%"]);
     className='absolute inset-0 z-0'
     style={{
         backgroundImage : `url(/sky.jpg)`,
-        backgroundPosition : "bottom",
+        backgroundPosition : "center bottom 30%",
         backgroundSize : "cover"
     }}
     />
