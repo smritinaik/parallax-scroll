@@ -19,8 +19,8 @@ const textY = useTransform(scrollYProgress , [0, 1] ,["0%", "200%"]);
 
     <motion.h1 
     style={{y: textY}}
-    className='font-bold text-white text-8xl relative z-10 pt-40 '>
-       HELLO
+    className='font-bold text-white text-6xl relative z-10 pt-45 '>
+       WELCOME
     </motion.h1>
 
     <motion.div
