@@ -10,7 +10,7 @@ const Parallax = () => {
     });
 
 // const backgroundY = useTransform(scrollYProgress , [0, 1] ,["0%", "100%"]);
-const textY = useTransform(scrollYProgress , [0, 1] ,["0%", "200%"]);
+const textY = useTransform(scrollYProgress , [0, 1] ,["10%", "900%"]);
 
   return (
   <div 
@@ -19,9 +19,14 @@ const textY = useTransform(scrollYProgress , [0, 1] ,["0%", "200%"]);
 
     <motion.h1 
     style={{y: textY}}
-    className='font-bold text-white text-6xl relative z-10 pt-45 '>
+    className='font-bold text-white text-6xl relative z-10 pt-13 '>
        WELCOME
     </motion.h1>
+    {/* <motion.p
+    style={{y: textY}}
+    className='font-bold text-white text-base relative z-10 pt-2 '>
+        This project is a modern Next.js web page featuring a parallax scrolling effect
+    </motion.p> */}
 
     <motion.div
     className='absolute inset-0 z-0'
